@@ -6,9 +6,9 @@ int main()
 {
     cout<<"Suma de dos números"<<endl;
     int a,b,c;
-    cout<<"Ingresa el primero operando: ";
+    cout<<"Ingresa el primer operando: ";
     cin>>a; 
-    cout<<"Ingrear el segundo operando: ";
+    cout<<"Ingresa el segundo operando: ";
     cin>>b;
     c=a+b;
     cout<<"La suma es: " <<c; 
