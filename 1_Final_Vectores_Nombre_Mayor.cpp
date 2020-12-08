@@ -43,15 +43,15 @@ void Cargar(float vector[], string nombre[])
 void Mayor(float vector[], string nombre[])
 {
 	float mayor=0;
-    int j = 0;
+    	int j = 0;
 	for(int i=0; i<5; i++)
 	{
 		if (vector[i]>mayor)
 		{
 			mayor=vector[i];
-            j=i;
+            		j=i;
 		}
 	}
 	cout<<"El mayor sueldo es: "<<mayor<<endl;
-    cout << nombre[j] << endl;
+    	cout << nombre[j] << endl;
 }
